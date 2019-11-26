@@ -1,0 +1,2 @@
+include ':app', ':commutildemo'
+rootProject.name='My Application'
