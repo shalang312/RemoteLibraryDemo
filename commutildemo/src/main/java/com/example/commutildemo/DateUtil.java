@@ -1,6 +1,7 @@
 package com.example.commutildemo;
 
 import android.text.TextUtils;
+import android.util.Log;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -44,6 +45,10 @@ public class DateUtil {
             e.printStackTrace();
             return -2;
         }
+    }
+
+    public static void TestUpdate() {
+        Log.i("TAG", "测试版本升级");
     }
 
     public static int compareDateYM(String time1, String time2) {
